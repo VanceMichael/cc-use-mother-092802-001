@@ -1,0 +1,1026 @@
+[
+  {
+    "seq": 1,
+    "ts": "2026-09-01T00:00:00+00:00",
+    "type": "organization_registered",
+    "payload": {
+      "org_id": "org-factory",
+      "name": "示例重型机械厂",
+      "group": "工业一线"
+    },
+    "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "hash": "6f7ece38d335495b707f92ae9fe1e6b5215060c931b4d26a41eca55231654d0e"
+  },
+  {
+    "seq": 2,
+    "ts": "2026-09-01T00:01:00+00:00",
+    "type": "organization_registered",
+    "payload": {
+      "org_id": "org-grid",
+      "name": "示例电网运检中心",
+      "group": "工业一线"
+    },
+    "prev_hash": "6f7ece38d335495b707f92ae9fe1e6b5215060c931b4d26a41eca55231654d0e",
+    "hash": "fe75b735757408a116ab093ade1fd22dee6435f50f0fe3f40bfbf1a34b8be7e0"
+  },
+  {
+    "seq": 3,
+    "ts": "2026-09-01T00:02:00+00:00",
+    "type": "organization_registered",
+    "payload": {
+      "org_id": "org-steel",
+      "name": "示例钢铁集团",
+      "group": "工业一线"
+    },
+    "prev_hash": "fe75b735757408a116ab093ade1fd22dee6435f50f0fe3f40bfbf1a34b8be7e0",
+    "hash": "0620d3dfcfe9c49ed27a3e944fccc54e7dda022fe48389aea4f301ab9c5cbe0b"
+  },
+  {
+    "seq": 4,
+    "ts": "2026-09-01T00:03:00+00:00",
+    "type": "organization_registered",
+    "payload": {
+      "org_id": "org-lab",
+      "name": "示例人工智能研究院",
+      "group": "科研院所"
+    },
+    "prev_hash": "0620d3dfcfe9c49ed27a3e944fccc54e7dda022fe48389aea4f301ab9c5cbe0b",
+    "hash": "a5f3adcad9afa8e4202e083821c4129224392372bd194cd4240623106017c0af"
+  },
+  {
+    "seq": 5,
+    "ts": "2026-09-01T00:04:00+00:00",
+    "type": "organization_registered",
+    "payload": {
+      "org_id": "org-sme",
+      "name": "示例初创科技小队",
+      "group": "中小团队"
+    },
+    "prev_hash": "a5f3adcad9afa8e4202e083821c4129224392372bd194cd4240623106017c0af",
+    "hash": "b3f6255254dc7166e835cf6948015bf2c1a386f519dc86658c5238cf6394ea8b"
+  },
+  {
+    "seq": 6,
+    "ts": "2026-09-01T01:00:00+00:00",
+    "type": "developer_registered",
+    "payload": {
+      "dev_id": "dev-fang",
+      "name": "方某（合成）",
+      "org_id": "org-factory"
+    },
+    "prev_hash": "b3f6255254dc7166e835cf6948015bf2c1a386f519dc86658c5238cf6394ea8b",
+    "hash": "8a4d7e301620a59e74d7a775f4b1313f48906580a491dec9d0393bf27c9c5a68"
+  },
+  {
+    "seq": 7,
+    "ts": "2026-09-01T01:01:00+00:00",
+    "type": "developer_registered",
+    "payload": {
+      "dev_id": "dev-min",
+      "name": "闵某（合成）",
+      "org_id": "org-grid"
+    },
+    "prev_hash": "8a4d7e301620a59e74d7a775f4b1313f48906580a491dec9d0393bf27c9c5a68",
+    "hash": "e539f06ae3b88ff8ffd4ac0c56cdf288d8ea20e5af6fbc5ae7e8e20d6cd7a901"
+  },
+  {
+    "seq": 8,
+    "ts": "2026-09-01T01:02:00+00:00",
+    "type": "developer_registered",
+    "payload": {
+      "dev_id": "dev-wei",
+      "name": "卫某（合成）",
+      "org_id": "org-steel"
+    },
+    "prev_hash": "e539f06ae3b88ff8ffd4ac0c56cdf288d8ea20e5af6fbc5ae7e8e20d6cd7a901",
+    "hash": "4f38e9eb2d3beb929d29b1e8ee06989bb05fd27ce4c6ad1d74821e6f45423948"
+  },
+  {
+    "seq": 9,
+    "ts": "2026-09-01T01:03:00+00:00",
+    "type": "developer_registered",
+    "payload": {
+      "dev_id": "dev-an",
+      "name": "安某（合成）",
+      "org_id": "org-lab"
+    },
+    "prev_hash": "4f38e9eb2d3beb929d29b1e8ee06989bb05fd27ce4c6ad1d74821e6f45423948",
+    "hash": "00053e1f773e06905c93ad04d47cb1bf2df7572e22d969ca8700c7b6f7562aed"
+  },
+  {
+    "seq": 10,
+    "ts": "2026-09-01T01:04:00+00:00",
+    "type": "developer_registered",
+    "payload": {
+      "dev_id": "dev-qiao",
+      "name": "乔某（合成）",
+      "org_id": "org-sme"
+    },
+    "prev_hash": "00053e1f773e06905c93ad04d47cb1bf2df7572e22d969ca8700c7b6f7562aed",
+    "hash": "251f16c415a62f568ebc01a33aba59d9f1f47140e067314caec5a9bd2babc5a6"
+  },
+  {
+    "seq": 11,
+    "ts": "2026-09-01T02:00:00+00:00",
+    "type": "rule_set_published",
+    "payload": {
+      "track": "industrial",
+      "version": 1,
+      "effective_ts": "2026-09-01T00:00:00+00:00",
+      "config": {
+        "min_units": 1,
+        "max_units": 60,
+        "max_sensitivity": "normal",
+        "require_purpose": true,
+        "allow_zone": false
+      }
+    },
+    "prev_hash": "251f16c415a62f568ebc01a33aba59d9f1f47140e067314caec5a9bd2babc5a6",
+    "hash": "ef1e8502af500d9ea615c95ff19905ac955020659f72ba6f0d90ec5f270118d4"
+  },
+  {
+    "seq": 12,
+    "ts": "2026-09-01T02:01:00+00:00",
+    "type": "rule_set_published",
+    "payload": {
+      "track": "security",
+      "version": 1,
+      "effective_ts": "2026-09-01T00:00:00+00:00",
+      "config": {
+        "min_units": 1,
+        "max_units": 120,
+        "max_sensitivity": "restricted",
+        "require_purpose": true,
+        "allow_zone": true
+      }
+    },
+    "prev_hash": "ef1e8502af500d9ea615c95ff19905ac955020659f72ba6f0d90ec5f270118d4",
+    "hash": "0e88fd7b11b2fd709c97de0407dbb65e65fec795c5e612cf66f29a2da209d144"
+  },
+  {
+    "seq": 13,
+    "ts": "2026-09-01T02:02:00+00:00",
+    "type": "rule_set_published",
+    "payload": {
+      "track": "public_service",
+      "version": 1,
+      "effective_ts": "2026-09-01T00:00:00+00:00",
+      "config": {
+        "min_units": 1,
+        "max_units": 80,
+        "max_sensitivity": "normal",
+        "require_purpose": true,
+        "allow_zone": false
+      }
+    },
+    "prev_hash": "0e88fd7b11b2fd709c97de0407dbb65e65fec795c5e612cf66f29a2da209d144",
+    "hash": "e4160bc560fd0f75253412da3fea233b558ce16167b1876259cbed72331e8fca"
+  },
+  {
+    "seq": 14,
+    "ts": "2026-09-01T02:03:00+00:00",
+    "type": "quota_pool_opened",
+    "payload": {
+      "pool_id": "pool-2026q3",
+      "capacity": 100,
+      "period_start": "2026-07-01T00:00:00+00:00",
+      "period_end": "2026-10-01T00:00:00+00:00"
+    },
+    "prev_hash": "e4160bc560fd0f75253412da3fea233b558ce16167b1876259cbed72331e8fca",
+    "hash": "556ab8a571a36aff3a85a985966ac8c063c64f69f397404f7e54e7fd812325c2"
+  },
+  {
+    "seq": 15,
+    "ts": "2026-09-01T02:04:00+00:00",
+    "type": "quota_pool_opened",
+    "payload": {
+      "pool_id": "pool-public-q3",
+      "capacity": 120,
+      "period_start": "2026-07-01T00:00:00+00:00",
+      "period_end": "2026-10-01T00:00:00+00:00"
+    },
+    "prev_hash": "556ab8a571a36aff3a85a985966ac8c063c64f69f397404f7e54e7fd812325c2",
+    "hash": "ce41e650e0fbbbd18ca5d0e0dc0f866da3fe83399b2a53ccf0df7887c253b66d"
+  },
+  {
+    "seq": 16,
+    "ts": "2026-09-02T00:00:00+00:00",
+    "type": "project_registered",
+    "payload": {
+      "project_id": "proj-weld",
+      "name": "焊缝缺陷视觉质检",
+      "track": "industrial"
+    },
+    "prev_hash": "ce41e650e0fbbbd18ca5d0e0dc0f866da3fe83399b2a53ccf0df7887c253b66d",
+    "hash": "38658a01b4a9cf421b094ce68c9259b00ff23873494cf10fbd95f0016717f9d1"
+  },
+  {
+    "seq": 17,
+    "ts": "2026-09-02T00:01:00+00:00",
+    "type": "project_registered",
+    "payload": {
+      "project_id": "proj-grid",
+      "name": "输电线路无人机巡检",
+      "track": "industrial"
+    },
+    "prev_hash": "38658a01b4a9cf421b094ce68c9259b00ff23873494cf10fbd95f0016717f9d1",
+    "hash": "1b5a861bd3606ce9925105e7e44bc6845a2678b6dae4574d757fe8b3fa6d9e1e"
+  },
+  {
+    "seq": 18,
+    "ts": "2026-09-02T00:02:00+00:00",
+    "type": "project_registered",
+    "payload": {
+      "project_id": "proj-furnace",
+      "name": "高炉炉温预测",
+      "track": "industrial"
+    },
+    "prev_hash": "1b5a861bd3606ce9925105e7e44bc6845a2678b6dae4574d757fe8b3fa6d9e1e",
+    "hash": "6eb71f2c0bb00d98659fd51adc0e8b6760eb0eeb5c2ac0968b6996a910fb534d"
+  },
+  {
+    "seq": 19,
+    "ts": "2026-09-02T00:03:00+00:00",
+    "type": "project_registered",
+    "payload": {
+      "project_id": "proj-redteam",
+      "name": "模型对抗红队评测",
+      "track": "security"
+    },
+    "prev_hash": "6eb71f2c0bb00d98659fd51adc0e8b6760eb0eeb5c2ac0968b6996a910fb534d",
+    "hash": "e2cb3a02e8c3a3dbe312bf485b5dd7376c453eee4a22ef524448ffa8bcee639f"
+  },
+  {
+    "seq": 20,
+    "ts": "2026-09-02T00:04:00+00:00",
+    "type": "project_registered",
+    "payload": {
+      "project_id": "proj-elder",
+      "name": "社区适老问答助手",
+      "track": "public_service"
+    },
+    "prev_hash": "e2cb3a02e8c3a3dbe312bf485b5dd7376c453eee4a22ef524448ffa8bcee639f",
+    "hash": "89013983a9e84a123c2e7ac50e034922fef0ff5dab40b12f9ac8b08b6f5ab4c8"
+  },
+  {
+    "seq": 21,
+    "ts": "2026-09-02T00:05:00+00:00",
+    "type": "project_registered",
+    "payload": {
+      "project_id": "proj-crane",
+      "name": "起重机吊钩安全监测",
+      "track": "industrial"
+    },
+    "prev_hash": "89013983a9e84a123c2e7ac50e034922fef0ff5dab40b12f9ac8b08b6f5ab4c8",
+    "hash": "4d6f11012bc768c325dc5c90276d86d283eef909db9d1ca26e230291af7c709f"
+  },
+  {
+    "seq": 22,
+    "ts": "2026-09-03T00:00:00+00:00",
+    "type": "resource_published",
+    "payload": {
+      "resource_id": "model-vision",
+      "version": "v1.2",
+      "kind": "model",
+      "name": "示例视觉基座模型",
+      "description": "",
+      "license": "商用许可：署名，同一条件共享",
+      "sensitivity": "normal",
+      "zone": null
+    },
+    "prev_hash": "4d6f11012bc768c325dc5c90276d86d283eef909db9d1ca26e230291af7c709f",
+    "hash": "3a2fbf580b965ed73a15ed3481670c8b82573bccebc89ec95206d1447286a66a"
+  },
+  {
+    "seq": 23,
+    "ts": "2026-09-03T00:01:00+00:00",
+    "type": "resource_published",
+    "payload": {
+      "resource_id": "ds-weld",
+      "version": "v1",
+      "kind": "dataset",
+      "name": "示例焊缝图像数据集",
+      "description": "合成焊缝图像",
+      "license": "仅限非商业研究，二次发布需申请",
+      "sensitivity": "normal",
+      "zone": null
+    },
+    "prev_hash": "3a2fbf580b965ed73a15ed3481670c8b82573bccebc89ec95206d1447286a66a",
+    "hash": "37a1fe0c4d217ea4bfed7cdd806e1d89bc9159e451e50d7879506fae7876d3b8"
+  },
+  {
+    "seq": 24,
+    "ts": "2026-09-03T00:02:00+00:00",
+    "type": "resource_published",
+    "payload": {
+      "resource_id": "ds-redteam",
+      "version": "v2",
+      "kind": "dataset",
+      "name": "示例对抗样本专区数据集",
+      "description": "安全专区对抗样本",
+      "license": "仅限安全专区授权项目，禁止外传",
+      "sensitivity": "restricted",
+      "zone": "security"
+    },
+    "prev_hash": "37a1fe0c4d217ea4bfed7cdd806e1d89bc9159e451e50d7879506fae7876d3b8",
+    "hash": "9b9208970671f1b39cfbcd7fc4876fa6f38bb7c703cf6396bbaf4f4cd985c1be"
+  },
+  {
+    "seq": 25,
+    "ts": "2026-09-04T00:00:00+00:00",
+    "type": "resource_published",
+    "payload": {
+      "resource_id": "model-vision",
+      "version": "v1.3",
+      "kind": "model",
+      "name": "示例视觉基座模型",
+      "description": "修复小目标召回",
+      "license": "商用许可：署名，同一条件共享",
+      "sensitivity": "normal",
+      "zone": null
+    },
+    "prev_hash": "9b9208970671f1b39cfbcd7fc4876fa6f38bb7c703cf6396bbaf4f4cd985c1be",
+    "hash": "2d5dab38ebcfbc4b0143b7ffc4a7210b26de200f5dc868a506e6d7dc69230eb5"
+  },
+  {
+    "seq": 26,
+    "ts": "2026-09-05T02:00:00+00:00",
+    "type": "application_submitted",
+    "payload": {
+      "app_key": "app-0d960b9e36f7b95d",
+      "revision": 1,
+      "fingerprint": "2ddced993a06921eb388ed0dfda23fa5371ab144e89e73f84be0a434816fb3fe",
+      "pool_id": "pool-2026q3",
+      "project_id": "proj-weld",
+      "dev_id": "dev-fang",
+      "track": "industrial",
+      "resources": [
+        {
+          "resource_id": "model-vision",
+          "version": "v1.2"
+        },
+        {
+          "resource_id": "ds-weld",
+          "version": "v1"
+        }
+      ],
+      "compute_units": 50,
+      "purpose": "生产线焊缝缺陷自动判级"
+    },
+    "prev_hash": "2d5dab38ebcfbc4b0143b7ffc4a7210b26de200f5dc868a506e6d7dc69230eb5",
+    "hash": "573793194c75aaea538f4a5c603c88c9c9809c0f78b487ff07f61fbb34764d4a"
+  },
+  {
+    "seq": 27,
+    "ts": "2026-09-05T09:00:00+00:00",
+    "type": "review_decided",
+    "payload": {
+      "app_key": "app-0d960b9e36f7b95d",
+      "revision": 1,
+      "approve": true,
+      "exception": false,
+      "reviewer_id": "rev-industrial-1",
+      "second_reviewer_id": null,
+      "rules_track": "industrial",
+      "rules_version": 1,
+      "decided_ts": "2026-09-05T09:00:00+00:00",
+      "pool_id": "pool-2026q3",
+      "pool_available_at_decision": 100,
+      "basis": [
+        {
+          "clause": "C-PURPOSE",
+          "title": "项目用途说明",
+          "passed": true,
+          "detail": "已说明用途",
+          "waivable": false
+        },
+        {
+          "clause": "C-UNITS",
+          "title": "算力额度区间",
+          "passed": true,
+          "detail": "申请50单位，区间1–60",
+          "waivable": true
+        },
+        {
+          "clause": "C-RESOURCE",
+          "title": "资源版本存在",
+          "passed": true,
+          "detail": "全部资源版本存在",
+          "waivable": false
+        },
+        {
+          "clause": "C-SENSITIVITY",
+          "title": "敏感资源准入",
+          "passed": true,
+          "detail": "资源敏感等级与专区均在允许范围",
+          "waivable": false
+        },
+        {
+          "clause": "C-CAPACITY",
+          "title": "配额池容量",
+          "passed": true,
+          "detail": "池余量100单位，申请50单位",
+          "waivable": false
+        }
+      ]
+    },
+    "prev_hash": "573793194c75aaea538f4a5c603c88c9c9809c0f78b487ff07f61fbb34764d4a",
+    "hash": "2846613306220d05f709bb8f1b725c96b4232835c8bf16b5176bd38b7f31f728"
+  },
+  {
+    "seq": 28,
+    "ts": "2026-09-05T09:00:00+00:00",
+    "type": "grant_reserved",
+    "payload": {
+      "grant_id": "grant-fang-q3",
+      "app_key": "app-0d960b9e36f7b95d",
+      "revision": 1,
+      "pool_id": "pool-2026q3",
+      "units": 50,
+      "expires_at": "2026-09-25T00:00:00+00:00"
+    },
+    "prev_hash": "2846613306220d05f709bb8f1b725c96b4232835c8bf16b5176bd38b7f31f728",
+    "hash": "fb18602ae296948311d5e90b76c54a122e2c193669b4209854399e5a7a3ed89c"
+  },
+  {
+    "seq": 29,
+    "ts": "2026-09-06T01:00:00+00:00",
+    "type": "grant_claimed",
+    "payload": {
+      "grant_id": "grant-fang-q3",
+      "pool_id": "pool-2026q3",
+      "units": 50,
+      "idem_key": "idem-claim-fang"
+    },
+    "prev_hash": "fb18602ae296948311d5e90b76c54a122e2c193669b4209854399e5a7a3ed89c",
+    "hash": "a3a56ae993783137a4604093c7846dc1e171e883b399e408810dde8e7445a3bc"
+  },
+  {
+    "seq": 30,
+    "ts": "2026-09-07T02:00:00+00:00",
+    "type": "application_submitted",
+    "payload": {
+      "app_key": "app-47497f795a9d4483",
+      "revision": 1,
+      "fingerprint": "3bf065786652a391fc7850ef1f7758999b6a07412161be328b2ceabf5d4deae2",
+      "pool_id": "pool-2026q3",
+      "project_id": "proj-grid",
+      "dev_id": "dev-min",
+      "track": "industrial",
+      "resources": [
+        {
+          "resource_id": "model-vision",
+          "version": "v1.3"
+        }
+      ],
+      "compute_units": 55,
+      "purpose": "输电线路无人机巡检缺陷识别"
+    },
+    "prev_hash": "a3a56ae993783137a4604093c7846dc1e171e883b399e408810dde8e7445a3bc",
+    "hash": "b22dea6e5c9ee308177841eee7a3cef164927949771dacb5f7a450488bdafbf7"
+  },
+  {
+    "seq": 31,
+    "ts": "2026-09-07T09:00:00+00:00",
+    "type": "review_decided",
+    "payload": {
+      "app_key": "app-47497f795a9d4483",
+      "revision": 1,
+      "approve": false,
+      "exception": false,
+      "reviewer_id": "rev-industrial-1",
+      "second_reviewer_id": null,
+      "rules_track": "industrial",
+      "rules_version": 1,
+      "decided_ts": "2026-09-07T09:00:00+00:00",
+      "pool_id": "pool-2026q3",
+      "pool_available_at_decision": 50,
+      "basis": [
+        {
+          "clause": "C-PURPOSE",
+          "title": "项目用途说明",
+          "passed": true,
+          "detail": "已说明用途",
+          "waivable": false
+        },
+        {
+          "clause": "C-UNITS",
+          "title": "算力额度区间",
+          "passed": true,
+          "detail": "申请55单位，区间1–60",
+          "waivable": true
+        },
+        {
+          "clause": "C-RESOURCE",
+          "title": "资源版本存在",
+          "passed": true,
+          "detail": "全部资源版本存在",
+          "waivable": false
+        },
+        {
+          "clause": "C-SENSITIVITY",
+          "title": "敏感资源准入",
+          "passed": true,
+          "detail": "资源敏感等级与专区均在允许范围",
+          "waivable": false
+        },
+        {
+          "clause": "C-CAPACITY",
+          "title": "配额池容量",
+          "passed": false,
+          "detail": "池余量仅50单位，无法满足55单位",
+          "waivable": false
+        }
+      ]
+    },
+    "prev_hash": "b22dea6e5c9ee308177841eee7a3cef164927949771dacb5f7a450488bdafbf7",
+    "hash": "5c6df0671038d574ed7f1be28e26a8493e7f1a35e2ad699498d84a0c6e85906e"
+  },
+  {
+    "seq": 32,
+    "ts": "2026-09-08T02:00:00+00:00",
+    "type": "application_submitted",
+    "payload": {
+      "app_key": "app-5c69c831cd127dcb",
+      "revision": 1,
+      "fingerprint": "dc689fed7768b540ab03c2b2f09020194d797af40f9427d4988d2557f1a3c8c7",
+      "pool_id": "pool-2026q3",
+      "project_id": "proj-redteam",
+      "dev_id": "dev-an",
+      "track": "security",
+      "resources": [
+        {
+          "resource_id": "ds-redteam",
+          "version": "v2"
+        }
+      ],
+      "compute_units": 30,
+      "purpose": "模型对抗鲁棒性红队评测"
+    },
+    "prev_hash": "5c6df0671038d574ed7f1be28e26a8493e7f1a35e2ad699498d84a0c6e85906e",
+    "hash": "deb6961e691b2fc25e41835dd49c53d00f6fa45b5893cc9588a658d77b8fb1eb"
+  },
+  {
+    "seq": 33,
+    "ts": "2026-09-08T03:00:00+00:00",
+    "type": "access_granted",
+    "payload": {
+      "access_id": "access-an-redteam",
+      "dev_id": "dev-an",
+      "resource_id": "ds-redteam",
+      "valid_until": "2026-09-30T00:00:00+00:00"
+    },
+    "prev_hash": "deb6961e691b2fc25e41835dd49c53d00f6fa45b5893cc9588a658d77b8fb1eb",
+    "hash": "6596884533d2b0647b9ad76971f647c74bb3d845dc1223941a077f2e2847f3e3"
+  },
+  {
+    "seq": 34,
+    "ts": "2026-09-08T09:00:00+00:00",
+    "type": "review_decided",
+    "payload": {
+      "app_key": "app-5c69c831cd127dcb",
+      "revision": 1,
+      "approve": true,
+      "exception": false,
+      "reviewer_id": "rev-security-1",
+      "second_reviewer_id": null,
+      "rules_track": "security",
+      "rules_version": 1,
+      "decided_ts": "2026-09-08T09:00:00+00:00",
+      "pool_id": "pool-2026q3",
+      "pool_available_at_decision": 50,
+      "basis": [
+        {
+          "clause": "C-PURPOSE",
+          "title": "项目用途说明",
+          "passed": true,
+          "detail": "已说明用途",
+          "waivable": false
+        },
+        {
+          "clause": "C-UNITS",
+          "title": "算力额度区间",
+          "passed": true,
+          "detail": "申请30单位，区间1–120",
+          "waivable": true
+        },
+        {
+          "clause": "C-RESOURCE",
+          "title": "资源版本存在",
+          "passed": true,
+          "detail": "全部资源版本存在",
+          "waivable": false
+        },
+        {
+          "clause": "C-SENSITIVITY",
+          "title": "敏感资源准入",
+          "passed": true,
+          "detail": "资源敏感等级与专区均在允许范围",
+          "waivable": false
+        },
+        {
+          "clause": "C-CAPACITY",
+          "title": "配额池容量",
+          "passed": true,
+          "detail": "池余量50单位，申请30单位",
+          "waivable": false
+        }
+      ]
+    },
+    "prev_hash": "6596884533d2b0647b9ad76971f647c74bb3d845dc1223941a077f2e2847f3e3",
+    "hash": "ab3dea3d960c9642469869f16e71b0c4ec9bf37b7bcafc077ce51be04ef53523"
+  },
+  {
+    "seq": 35,
+    "ts": "2026-09-08T09:00:00+00:00",
+    "type": "grant_reserved",
+    "payload": {
+      "grant_id": "grant-an-q3",
+      "app_key": "app-5c69c831cd127dcb",
+      "revision": 1,
+      "pool_id": "pool-2026q3",
+      "units": 30,
+      "expires_at": "2026-09-28T00:00:00+00:00"
+    },
+    "prev_hash": "ab3dea3d960c9642469869f16e71b0c4ec9bf37b7bcafc077ce51be04ef53523",
+    "hash": "1505f94144654dc28bb956ae120ad1effc03bc05bd803b7fc0c21a6ec7adbc77"
+  },
+  {
+    "seq": 36,
+    "ts": "2026-09-09T01:00:00+00:00",
+    "type": "grant_claimed",
+    "payload": {
+      "grant_id": "grant-an-q3",
+      "pool_id": "pool-2026q3",
+      "units": 30,
+      "idem_key": "idem-claim-an"
+    },
+    "prev_hash": "1505f94144654dc28bb956ae120ad1effc03bc05bd803b7fc0c21a6ec7adbc77",
+    "hash": "09d24292c5874d1a18a3960718ab841d785cedad8d62780f56689f1a6be4ed45"
+  },
+  {
+    "seq": 37,
+    "ts": "2026-09-12T02:00:00+00:00",
+    "type": "application_submitted",
+    "payload": {
+      "app_key": "app-103740107b02d36d",
+      "revision": 1,
+      "fingerprint": "6cdac47d0355fd81ce19422f2d64bf80de3332d18df60c299a41ec8d9bac54db",
+      "pool_id": "pool-public-q3",
+      "project_id": "proj-elder",
+      "dev_id": "dev-qiao",
+      "track": "public_service",
+      "resources": [
+        {
+          "resource_id": "model-vision",
+          "version": "v1.3"
+        }
+      ],
+      "compute_units": 90,
+      "purpose": "社区适老多模态问答助手（公益）"
+    },
+    "prev_hash": "09d24292c5874d1a18a3960718ab841d785cedad8d62780f56689f1a6be4ed45",
+    "hash": "a2765ba57b867e3e73ecf40cd4856aa120070c95767ebf5965330e5c8cffa09d"
+  },
+  {
+    "seq": 38,
+    "ts": "2026-09-12T09:00:00+00:00",
+    "type": "review_decided",
+    "payload": {
+      "app_key": "app-103740107b02d36d",
+      "revision": 1,
+      "approve": true,
+      "exception": true,
+      "reviewer_id": "rev-public-1",
+      "second_reviewer_id": "rev-public-2",
+      "rules_track": "public_service",
+      "rules_version": 1,
+      "decided_ts": "2026-09-12T09:00:00+00:00",
+      "pool_id": "pool-public-q3",
+      "pool_available_at_decision": 120,
+      "basis": [
+        {
+          "clause": "C-PURPOSE",
+          "title": "项目用途说明",
+          "passed": true,
+          "detail": "已说明用途",
+          "waivable": false
+        },
+        {
+          "clause": "C-UNITS",
+          "title": "算力额度区间",
+          "passed": false,
+          "detail": "申请90单位超出区间1–80",
+          "waivable": true
+        },
+        {
+          "clause": "C-RESOURCE",
+          "title": "资源版本存在",
+          "passed": true,
+          "detail": "全部资源版本存在",
+          "waivable": false
+        },
+        {
+          "clause": "C-SENSITIVITY",
+          "title": "敏感资源准入",
+          "passed": true,
+          "detail": "资源敏感等级与专区均在允许范围",
+          "waivable": false
+        },
+        {
+          "clause": "C-CAPACITY",
+          "title": "配额池容量",
+          "passed": true,
+          "detail": "池余量120单位，申请90单位",
+          "waivable": false
+        }
+      ]
+    },
+    "prev_hash": "a2765ba57b867e3e73ecf40cd4856aa120070c95767ebf5965330e5c8cffa09d",
+    "hash": "e5411a0fa72b73b837a95285958bd69d9a278c22dfa2621cd4a055a8204ccfba"
+  },
+  {
+    "seq": 39,
+    "ts": "2026-09-12T09:00:00+00:00",
+    "type": "grant_reserved",
+    "payload": {
+      "grant_id": "grant-qiao-q3",
+      "app_key": "app-103740107b02d36d",
+      "revision": 1,
+      "pool_id": "pool-public-q3",
+      "units": 90,
+      "expires_at": "2026-10-20T00:00:00+00:00"
+    },
+    "prev_hash": "e5411a0fa72b73b837a95285958bd69d9a278c22dfa2621cd4a055a8204ccfba",
+    "hash": "a8ad9488b6a436ced0df7b3a2c983091e9d350503251abc214ccc4643970ad0b"
+  },
+  {
+    "seq": 40,
+    "ts": "2026-09-13T02:00:00+00:00",
+    "type": "application_submitted",
+    "payload": {
+      "app_key": "app-95ee7daf4ebdffe6",
+      "revision": 1,
+      "fingerprint": "31bde8b623172deb203ca4616a77f578a49f10f68272259ba59516ce026ea908",
+      "pool_id": "pool-2026q3",
+      "project_id": "proj-furnace",
+      "dev_id": "dev-wei",
+      "track": "industrial",
+      "resources": [
+        {
+          "resource_id": "model-vision",
+          "version": "v1.3"
+        }
+      ],
+      "compute_units": 20,
+      "purpose": ""
+    },
+    "prev_hash": "a8ad9488b6a436ced0df7b3a2c983091e9d350503251abc214ccc4643970ad0b",
+    "hash": "60a4460633faf39b23650358bfdd3c155d256b1a361426935446a386e4a01f93"
+  },
+  {
+    "seq": 41,
+    "ts": "2026-09-13T09:00:00+00:00",
+    "type": "review_decided",
+    "payload": {
+      "app_key": "app-95ee7daf4ebdffe6",
+      "revision": 1,
+      "approve": false,
+      "exception": false,
+      "reviewer_id": "rev-industrial-1",
+      "second_reviewer_id": null,
+      "rules_track": "industrial",
+      "rules_version": 1,
+      "decided_ts": "2026-09-13T09:00:00+00:00",
+      "pool_id": "pool-2026q3",
+      "pool_available_at_decision": 20,
+      "basis": [
+        {
+          "clause": "C-PURPOSE",
+          "title": "项目用途说明",
+          "passed": false,
+          "detail": "缺少项目用途说明",
+          "waivable": false
+        },
+        {
+          "clause": "C-UNITS",
+          "title": "算力额度区间",
+          "passed": true,
+          "detail": "申请20单位，区间1–60",
+          "waivable": true
+        },
+        {
+          "clause": "C-RESOURCE",
+          "title": "资源版本存在",
+          "passed": true,
+          "detail": "全部资源版本存在",
+          "waivable": false
+        },
+        {
+          "clause": "C-SENSITIVITY",
+          "title": "敏感资源准入",
+          "passed": true,
+          "detail": "资源敏感等级与专区均在允许范围",
+          "waivable": false
+        },
+        {
+          "clause": "C-CAPACITY",
+          "title": "配额池容量",
+          "passed": true,
+          "detail": "池余量20单位，申请20单位",
+          "waivable": false
+        }
+      ]
+    },
+    "prev_hash": "60a4460633faf39b23650358bfdd3c155d256b1a361426935446a386e4a01f93",
+    "hash": "49f160bd537bee436f7e01e0b0822b7d0426b91d48bc70b3dcf2b09663ac0ffe"
+  },
+  {
+    "seq": 42,
+    "ts": "2026-09-20T00:00:00+00:00",
+    "type": "rule_set_published",
+    "payload": {
+      "track": "industrial",
+      "version": 2,
+      "effective_ts": "2026-09-20T00:00:00+00:00",
+      "config": {
+        "min_units": 1,
+        "max_units": 100,
+        "max_sensitivity": "normal",
+        "require_purpose": true,
+        "allow_zone": false
+      }
+    },
+    "prev_hash": "49f160bd537bee436f7e01e0b0822b7d0426b91d48bc70b3dcf2b09663ac0ffe",
+    "hash": "4d92b3a2eb6f7f164b559080e94f96a0f660c5ca35919526b50e4f16cd642bca"
+  },
+  {
+    "seq": 43,
+    "ts": "2026-09-20T01:00:00+00:00",
+    "type": "usage_reported",
+    "payload": {
+      "grant_id": "grant-fang-q3",
+      "pool_id": "pool-2026q3",
+      "units": 30,
+      "idem_key": "idem-usage-fang"
+    },
+    "prev_hash": "4d92b3a2eb6f7f164b559080e94f96a0f660c5ca35919526b50e4f16cd642bca",
+    "hash": "958907c3de5dca1eb2cb6ccc2ac2b8f2240770aa9b5bd71e6b7a28e0b2bb7aed"
+  },
+  {
+    "seq": 44,
+    "ts": "2026-09-21T01:00:00+00:00",
+    "type": "grant_released",
+    "payload": {
+      "grant_id": "grant-fang-q3",
+      "pool_id": "pool-2026q3",
+      "units": 10,
+      "from_reserved": 0,
+      "idem_key": "idem-release-fang"
+    },
+    "prev_hash": "958907c3de5dca1eb2cb6ccc2ac2b8f2240770aa9b5bd71e6b7a28e0b2bb7aed",
+    "hash": "24ce5fbb30ad74f3745bb13a8a4bfcd5b0a7670816d560a0aa44b160147418b7"
+  },
+  {
+    "seq": 45,
+    "ts": "2026-09-22T02:00:00+00:00",
+    "type": "application_submitted",
+    "payload": {
+      "app_key": "app-0eb7f606f4a59559",
+      "revision": 1,
+      "fingerprint": "b7efd7815354a1553d2bf8313b68ac4bf3fb9952236896b0e65e22eea045f619",
+      "pool_id": "pool-2026q3",
+      "project_id": "proj-crane",
+      "dev_id": "dev-min",
+      "track": "industrial",
+      "resources": [
+        {
+          "resource_id": "model-vision",
+          "version": "v1.3"
+        }
+      ],
+      "compute_units": 90,
+      "purpose": "起重机吊钩安全监测推理"
+    },
+    "prev_hash": "24ce5fbb30ad74f3745bb13a8a4bfcd5b0a7670816d560a0aa44b160147418b7",
+    "hash": "dda5804fe55181c1bbc5ea6db04cd3525e4f1a4d69a2df6752243337413e2ad0"
+  },
+  {
+    "seq": 46,
+    "ts": "2026-09-22T09:00:00+00:00",
+    "type": "review_decided",
+    "payload": {
+      "app_key": "app-0eb7f606f4a59559",
+      "revision": 1,
+      "approve": false,
+      "exception": false,
+      "reviewer_id": "rev-industrial-2",
+      "second_reviewer_id": null,
+      "rules_track": "industrial",
+      "rules_version": 2,
+      "decided_ts": "2026-09-22T09:00:00+00:00",
+      "pool_id": "pool-2026q3",
+      "pool_available_at_decision": 30,
+      "basis": [
+        {
+          "clause": "C-PURPOSE",
+          "title": "项目用途说明",
+          "passed": true,
+          "detail": "已说明用途",
+          "waivable": false
+        },
+        {
+          "clause": "C-UNITS",
+          "title": "算力额度区间",
+          "passed": true,
+          "detail": "申请90单位，区间1–100",
+          "waivable": true
+        },
+        {
+          "clause": "C-RESOURCE",
+          "title": "资源版本存在",
+          "passed": true,
+          "detail": "全部资源版本存在",
+          "waivable": false
+        },
+        {
+          "clause": "C-SENSITIVITY",
+          "title": "敏感资源准入",
+          "passed": true,
+          "detail": "资源敏感等级与专区均在允许范围",
+          "waivable": false
+        },
+        {
+          "clause": "C-CAPACITY",
+          "title": "配额池容量",
+          "passed": false,
+          "detail": "池余量仅30单位，无法满足90单位",
+          "waivable": false
+        }
+      ]
+    },
+    "prev_hash": "dda5804fe55181c1bbc5ea6db04cd3525e4f1a4d69a2df6752243337413e2ad0",
+    "hash": "c98d1ca13053e494f92aa1c7631911762b81e8b2c085befa00d3069a77b538c5"
+  },
+  {
+    "seq": 47,
+    "ts": "2026-09-24T01:00:00+00:00",
+    "type": "grant_extended",
+    "payload": {
+      "grant_id": "grant-an-q3",
+      "pool_id": "pool-2026q3",
+      "units": 0,
+      "new_expires_at": "2026-10-12T00:00:00+00:00",
+      "idem_key": "idem-extend-an"
+    },
+    "prev_hash": "c98d1ca13053e494f92aa1c7631911762b81e8b2c085befa00d3069a77b538c5",
+    "hash": "b74a481622b3e2662556a1be583577e58480a98ed170cd54678adcaa020806f0"
+  },
+  {
+    "seq": 48,
+    "ts": "2026-09-29T02:00:00+00:00",
+    "type": "application_submitted",
+    "payload": {
+      "app_key": "app-103740107b02d36d",
+      "revision": 2,
+      "fingerprint": "84739a3ad1836955a74fc828267154547b12f722fe660db651c601a3021cbc8d",
+      "pool_id": "pool-public-q3",
+      "project_id": "proj-elder",
+      "dev_id": "dev-qiao",
+      "track": "public_service",
+      "resources": [
+        {
+          "resource_id": "model-vision",
+          "version": "v1.3"
+        }
+      ],
+      "compute_units": 20,
+      "purpose": "社区适老问答助手二期（公益）"
+    },
+    "prev_hash": "b74a481622b3e2662556a1be583577e58480a98ed170cd54678adcaa020806f0",
+    "hash": "89b736a36e047c7f2a33972fbfbd862f93104e6f01f867cdcb642adeb3721006"
+  },
+  {
+    "seq": 49,
+    "ts": "2026-10-03T00:00:00+00:00",
+    "type": "grant_expired",
+    "payload": {
+      "grant_id": "grant-fang-q3",
+      "pool_id": "pool-2026q3",
+      "units": 10,
+      "from_reserved": 0
+    },
+    "prev_hash": "89b736a36e047c7f2a33972fbfbd862f93104e6f01f867cdcb642adeb3721006",
+    "hash": "284e73700003397bb2b2190897fc4613b3bb62e8991625c0db6bd23c410cd7af"
+  },
+  {
+    "seq": 50,
+    "ts": "2026-10-03T00:00:00+00:00",
+    "type": "access_expired",
+    "payload": {
+      "access_id": "access-an-redteam"
+    },
+    "prev_hash": "284e73700003397bb2b2190897fc4613b3bb62e8991625c0db6bd23c410cd7af",
+    "hash": "26a275a64d0ab6209ceb08716ae8e84067dd20114606bd3332a9e40ca1288ce5"
+  }
+]

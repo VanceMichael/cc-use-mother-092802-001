@@ -1,0 +1,40 @@
+{
+  "title": "资源开放服务只追加事件台账",
+  "description": "事件只能追加、哈希链衔接；载荷类型见 enum。",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["seq", "ts", "type", "payload", "prev_hash", "hash"],
+    "additionalProperties": false,
+    "properties": {
+      "seq": { "type": "integer", "minimum": 1 },
+      "ts": { "type": "string", "format": "date-time" },
+      "type": {
+        "type": "string",
+        "enum": [
+          "organization_registered",
+          "developer_registered",
+          "project_registered",
+          "resource_published",
+          "rule_set_published",
+          "quota_pool_opened",
+          "access_granted",
+          "access_revoked",
+          "application_submitted",
+          "application_withdrawn",
+          "review_decided",
+          "grant_reserved",
+          "grant_claimed",
+          "grant_released",
+          "grant_extended",
+          "grant_expired",
+          "usage_reported",
+          "access_expired"
+        ]
+      },
+      "payload": { "type": "object" },
+      "prev_hash": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+      "hash": { "type": "string", "pattern": "^[0-9a-f]{64}$" }
+    }
+  }
+}

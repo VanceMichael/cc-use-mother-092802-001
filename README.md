@@ -20,6 +20,25 @@
 
 `contracts/context.schema.json` 描述资料结构，`fixtures/context.json` 提供不含真实身份信息的示例，`src/ai_resource_context.py` 负责读取和校验这些资料。
 
+## 资源开放服务
+
+在上述领域资料之上，`docs/domain-rules.md` 第 2 节起把资源开放服务固化为编号规则
+（R-LOG 连续记录、R-RULE 差异化规则版本、R-APP 申请幂等与版本、R-REV 评审隔离、
+R-PRIV 存在性隐藏、R-QUOTA 配额守恒、R-RESUME 停机接续、R-EXPLAIN 可解释、
+R-FAIR 公平开放度量），并由纯标准库代码实现：
+
+| 文件 | 职责 |
+| --- | --- |
+| `src/ledger.py` | 只追加、带 SHA-256 哈希链的事件台账（序号/时间戳单调、防篡改、可落盘重放） |
+| `src/projections.py` | 从台账事件确定性重放机构、开发者、项目、资源版本、规则版本、申请版本、配额池、额度与授权状态 |
+| `src/rules.py` | 工业一线 / 安全研究 / 公共服务三套分赛道、按版本发布的条款评估（容量条款不可例外） |
+| `src/privacy.py` | 最小知情评审资料包；敏感资源对无权方在搜索、直取、聚合中均不可推断其存在；授权失效后恢复不可见 |
+| `src/service.py` | 申请（重复返回原结果、内容变更新版本）、评审（申请人回避、例外双签、记录 decided-under 规则版本）、额度（领取/核对/释放/延期守恒、指令幂等）、停机接续 |
+| `src/readmodels.py` | 项目获批/被拒完整解释（条款依据、资源版本与许可、反事实挤占测算）与分群体×规则版本的公平开放度量（小样本抑制、可下钻） |
+| `contracts/ledger.schema.json` | 台账事件结构与合法事件类型契约 |
+| `fixtures/build_scenario.py` | 构造覆盖全部规则的合成演示台账（无真实身份信息） |
+| `fixtures/scenario.ledger.json` | 生成的演示台账，含停机接续后的到期与在途评审记录 |
+
 ## 开发命令
 
 运行测试：
@@ -34,4 +53,10 @@ python3 -m unittest discover -s tests -v
 python3 -m compileall -q src
 ```
 
-两条命令只读取仓库内文件，不需要连接外部业务系统。
+重新生成演示台账（先重放、再执行停机接续，最后校验哈希链）：
+
+```bash
+python3 -m fixtures.build_scenario
+```
+
+三条命令只读写仓库内文件，不需要连接外部业务系统。
